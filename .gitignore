@@ -1,6 +1,6 @@
 ## Visual Studio Temp Files
 .vs/
-source/.vs/
+/Source/.vs
 [Bb]in/
 [Oo]bj/
 *.user
@@ -21,3 +21,4 @@ _Changelist.txt
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+

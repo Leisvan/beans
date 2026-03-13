@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\Beans.csproj": {}
+    "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\Beans.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\Beans.csproj": {
+    "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\Beans.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\Beans.csproj",
+        "projectUniqueName": "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\Beans.csproj",
         "projectName": "Beans",
-        "projectPath": "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\Beans.csproj",
+        "projectPath": "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\Beans.csproj",
         "packagesPath": "C:\\Users\\rathm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\obj\\",
+        "outputPath": "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

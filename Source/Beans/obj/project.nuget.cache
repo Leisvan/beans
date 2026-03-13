@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qc23aJi52S0=",
+  "dgSpecHash": "fRVXCxSLhHo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rathm\\source\\repos\\Beans\\Source\\Beans\\Beans.csproj",
+  "projectFilePath": "C:\\Users\\rathm\\source\\repos\\Leisvan\\beans\\Source\\Beans\\Beans.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rathm\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.4\\microsoft.aspnetcore.app.internal.assets.10.0.4.nupkg.sha512",
     "C:\\Users\\rathm\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.5\\microsoft.aspnetcore.authorization.10.0.5.nupkg.sha512",
