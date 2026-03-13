@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/.github-workflows/">
+    <File Path="../.github/workflows/pages.yml" />
+  </Folder>
   <Project Path="Beans/Beans.csproj" />
 </Solution>
