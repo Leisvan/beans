@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rathm\\source\\repos\\Rice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE2B33DD-4032-411D-8310-5C4850C714AD}|Rice\\Beans.csproj|c:\\users\\rathm\\source\\repos\\rice\\rice\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2B33DD-4032-411D-8310-5C4850C714AD}|Rice\\Beans.csproj|solutionrelative:rice\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE2B33DD-4032-411D-8310-5C4850C714AD}|Rice\\Beans.csproj|c:\\users\\rathm\\source\\repos\\rice\\rice\\wwwroot\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE2B33DD-4032-411D-8310-5C4850C714AD}|Rice\\Beans.csproj|solutionrelative:rice\\wwwroot\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\rathm\\source\\repos\\Rice\\Rice\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Rice\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\rathm\\source\\repos\\Rice\\Rice\\wwwroot\\index.html",
+              "RelativeToolTip": "Rice\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-13T17:06:42.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "404.html",
               "DocumentMoniker": "C:\\Users\\rathm\\source\\repos\\Rice\\Rice\\wwwroot\\404.html",
               "RelativeDocumentMoniker": "Rice\\wwwroot\\404.html",
               "ToolTip": "C:\\Users\\rathm\\source\\repos\\Rice\\Rice\\wwwroot\\404.html",
               "RelativeToolTip": "Rice\\wwwroot\\404.html",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-03-13T17:06:18.643Z",
               "EditorCaption": ""
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\rathm\\source\\repos\\Rice\\Rice\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Rice\\Layout\\MainLayout.razor",

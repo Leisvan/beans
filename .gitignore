@@ -1,6 +1,6 @@
 ## Visual Studio Temp Files
 .vs/
-/Source/.vs
+/Source/.vs/
 [Bb]in/
 [Oo]bj/
 *.user
