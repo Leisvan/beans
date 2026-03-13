@@ -4,10 +4,10 @@
 /Source/.vs/Beans.slnx/
 /Source/.vs/Beans.slnx/v18/
 /Source/Beans/bin/
-/Source/Beans/Bin/
 /Source/Beans/obj/
-/Source/Beans/Obj/
+/Source/Beans/obj/Debug/
 /Source/Beans/bin/
+/Source/.vs/Beans.slnx/v18/.su
 *.user
 *.suo
 *.cache
@@ -26,4 +26,3 @@ _Changelist.txt
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-/Source/.vs/Beans.slnx/v18/.suo
