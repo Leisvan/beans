@@ -4,9 +4,20 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy-to-pages:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -18,12 +29,17 @@ jobs:
       - name: Publish Blazor Project
         run: dotnet publish Source/Beans/Beans.csproj -c Release -o release
 
-      #- name: Change base-tag in index.html
-        # GitHub Pages usually hosts at /RepoName/, so we update the base href
-      #  run: sed -i 's/<base href="\/" \/>/<base href="\/Beans\/" \/>/g' release/wwwroot/index.html
+      - name: Change base-tag in index.html
+        run: sed -i 's|<base href="/"|<base href="/beans/"|g' release/wwwroot/index.html
 
-      - name: Commit and Push to pages branch
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Verify base href was updated
+        run: grep '<base' release/wwwroot/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: release/wwwroot
-          branch: pages
+          path: release/wwwroot
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
