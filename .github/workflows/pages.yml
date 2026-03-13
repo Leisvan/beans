@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-to-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Publish Blazor Project
+        run: dotnet publish Source/Beans/Beans.csproj -c Release -o release
+
+      - name: Change base-tag in index.html
+        # GitHub Pages usually hosts at /RepoName/, so we update the base href
+        run: sed -i 's/<base href="\/" \/>/<base href="\/Beans\/" \/>/g' release/wwwroot/index.html
+
+      - name: Commit and Push to pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: release/wwwroot
+          branch: pages
