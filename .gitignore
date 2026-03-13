@@ -1,0 +1,23 @@
+## Visual Studio Temp Files
+.vs/
+source/.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.opendb
+
+## NuGet Packages
+*.nupkg
+packages/
+
+## MSBuild/Visual Studio Generated
+Generated Files/
+_Changelist.txt
+*.log
+
+## OS Generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
