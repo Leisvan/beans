@@ -1,8 +1,13 @@
 ## Visual Studio Temp Files
 .vs/
 /Source/.vs/
-[Bb]in/
-[Oo]bj/
+/Source/.vs/Beans.slnx
+/Source/.vs/Beans.slnx/v18
+/Source/Beans/bin/
+/Source/Beans/Bin/
+/Source/Beans/obj/
+/Source/Beans/Obj/
+/Source/Beans/bin/
 *.user
 *.suo
 *.cache
@@ -21,4 +26,3 @@ _Changelist.txt
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-

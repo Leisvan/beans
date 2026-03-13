@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beans")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e1b22c3487cdc3af9d87f25716a7e85bef84e00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dccebc717342baeaf705d3243a67c659e54d3878")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beans")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beans")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
